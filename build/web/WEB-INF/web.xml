@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<web-app>
+    <servlet>
+        <servlet-name>TableDeMultiplication</servlet-name>
+        <servlet-class>com.webmultiplication.servlet.TableDeMultiplication</servlet-class>
+        
+        <init-param>
+            <param-name>nombre</param-name>
+            <param-value>5</param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>TableDeMultiplication</servlet-name>
+        <url-pattern>/multiplication</url-pattern>
+    </servlet-mapping>
+</web-app>
+
